@@ -25,7 +25,7 @@
 }
 .p-img {
   width: 100%;
-  transition: all 7s ease;
+  transition: all 10s ease;
 }
 
 .p:hover .p-img {
