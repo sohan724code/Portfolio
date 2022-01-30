@@ -1,0 +1,35 @@
+.ps {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ps-text {
+  width: 65%;
+  font-weight: 600;
+}
+
+.ps-disc {
+  margin: 20px 0;
+}
+
+.ps-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .ps {
+    padding: 10px;
+  }
+  .ps-text {
+    width: 100%;
+  }
+  .ps-disc {
+    display: none;
+  }
+}
