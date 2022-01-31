@@ -47,10 +47,27 @@
 
 .a-sub {
   margin: 20px 0px;
+  width: 80%;
 }
 
 .a-desc {
   font-weight: 300;
+  width: 80%;
+}
+
+.a-link {
+  background-color: #2981b6;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+}
+.a-link:hover {
+  background-color: #2990b6;
 }
 
 @media screen and (max-width: 480px) {
@@ -58,6 +75,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+    height: 100%;
   }
   .a-left {
     width: 100%;

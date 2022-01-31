@@ -4,7 +4,7 @@ import "./Project.css";
 const Project = ({ project }) => {
   const { link, img } = project;
   return (
-    <div className="p">
+    <div className="p" title="Click to see source">
       <div className="p-browser">
         <div className="p-circle"></div>
         <div className="p-circle"></div>
