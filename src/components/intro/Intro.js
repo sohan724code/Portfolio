@@ -1,7 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import ME from "../../images/avatar.svg";
-import HOME from "../../images/home-main.svg";
+import HOME from "../../images/undraw_programming_re_kg9v.svg";
 import useDark from "../../hooks/useDark";
 
 const Intro = () => {
