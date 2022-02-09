@@ -3,9 +3,6 @@
   <a href="https://sohan-portfolio.netlify.app/" target="_blank">jahidul-islam</a>
 </h2>
 
-
-
-
 <center>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
