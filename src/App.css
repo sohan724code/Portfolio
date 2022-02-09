@@ -10,6 +10,10 @@ body {
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* custom scrollbar */
 /* width */
 ::-webkit-scrollbar {

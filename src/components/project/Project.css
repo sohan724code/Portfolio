@@ -1,9 +1,12 @@
+a {
+  text-decoration: none;
+}
 .p {
   width: 30%;
-  height: 40vh;
+  height: 55vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 10px 10px;
   overflow: hidden;
 }
 
@@ -23,18 +26,49 @@
   margin: 3px;
   background-color: #fff;
 }
+
+.p-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 5px;
+  width: 100%;
+}
+
+.p-button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.p-img-wrapper {
+  height: 40vh;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
 .p-img {
   width: 100%;
   transition: all 10s ease;
 }
 
-.p:hover .p-img {
+.p-img-wrapper:hover .p-img {
   transform: translateY(-100%);
 }
 
 @media screen and (max-width: 480px) {
   .p {
     width: 40%;
-    height: 30vh;
+    height: 65vh;
+  }
+  .p-button {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .p-button-link {
+    margin-bottom: 10px;
   }
 }

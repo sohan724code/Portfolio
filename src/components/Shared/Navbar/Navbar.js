@@ -77,18 +77,26 @@ const Navbar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Home</Typography>
-              </MenuItem>
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Skills</Typography>
-              </MenuItem>
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Projects</Typography>
-              </MenuItem>
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Resume and Contact</Typography>
-              </MenuItem>
+              <a href="#about">
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">About</Typography>
+                </MenuItem>
+              </a>
+              <a href="#skills">
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">Skills</Typography>
+                </MenuItem>
+              </a>
+              <a href="#projects">
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">Projects</Typography>
+                </MenuItem>
+              </a>
+              <a href="contact">
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">Resume and Contact</Typography>
+                </MenuItem>
+              </a>
             </Menu>
           </Box>
           <Typography
@@ -114,58 +122,66 @@ const Navbar = () => {
               mr: 8,
             }}
           >
-            <Button
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: "white",
-                display: "block",
-                mr: 4,
-                fontSize: "16px",
-              }}
-              style={{ color: dark ? "#fff" : "#222" }}
-            >
-              Home
-            </Button>
-            <Button
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: "white",
-                display: "block",
-                mr: 4,
-                fontSize: "16px",
-              }}
-              style={{ color: dark ? "#fff" : "#222" }}
-            >
-              Skills
-            </Button>
-            <Button
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: "white",
-                display: "block",
-                mr: 4,
-                fontSize: "16px",
-              }}
-              style={{ color: dark ? "#fff" : "#222" }}
-            >
-              Projects
-            </Button>
-            <Button
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: "white",
-                display: "block",
-                mr: 4,
-                fontSize: "16px",
-              }}
-              style={{ color: dark ? "#fff" : "#222" }}
-            >
-              Resume and Contact
-            </Button>
+            <a href="#about">
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                  mr: 4,
+                  fontSize: "16px",
+                }}
+                style={{ color: dark ? "#fff" : "#222" }}
+              >
+                About
+              </Button>
+            </a>
+            <a href="#skills">
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                  mr: 4,
+                  fontSize: "16px",
+                }}
+                style={{ color: dark ? "#fff" : "#222" }}
+              >
+                Skills
+              </Button>
+            </a>
+            <a href="#projects">
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                  mr: 4,
+                  fontSize: "16px",
+                }}
+                style={{ color: dark ? "#fff" : "#222" }}
+              >
+                Projects
+              </Button>
+            </a>
+            <a href="#contact">
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                  mr: 4,
+                  fontSize: "16px",
+                }}
+                style={{ color: dark ? "#fff" : "#222" }}
+              >
+                Resume and Contact
+              </Button>
+            </a>
           </Box>
         </Toolbar>
       </Container>

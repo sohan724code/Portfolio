@@ -7,21 +7,25 @@ const projects = [
     id: 1,
     img: Recharge,
     link: "https://github.com/sohan724code/re-charge-client",
+    demoLink: "https://re-charge-11075.web.app/",
   },
   {
     id: 2,
     img: Eggy,
     link: "https://github.com/sohan724code/eggy-client",
+    demoLink: "https://eggy-website.netlify.app/home",
   },
   {
     id: 3,
     img: Makeup,
     link: "https://github.com/sohan724code/good-makeup-client",
+    demoLink: "https://vigilant-shockley-e63c57.netlify.app/",
   },
   {
     id: 4,
     img: Dental,
     link: "https://github.com/sohan724code/health-care",
+    demoLink: "https://dental-care-10.netlify.app/home",
   },
 ];
 

@@ -4,7 +4,7 @@ import Me from "../../images/avatar.svg";
 
 const About = () => {
   return (
-    <div className="a">
+    <div className="a" id="about">
       <div className="a-left">
         {/* <div className="a-card bg"></div> */}
         <div className="a-card">
@@ -12,7 +12,9 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">
+          Let me <strong style={{ color: "#2980b6" }}>introduce</strong> myself
+        </h1>
         <p className="a-sub">
           I fell in love with{" "}
           <strong style={{ color: "#2980b6" }}>Web Developing</strong> and I
