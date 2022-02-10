@@ -27,7 +27,11 @@ const Project = ({ project }) => {
           <Button
             variant="contained"
             sx={{ width: { lg: "75%", md: "75%", xs: "90%" } }}
-            style={{ height: "40px", fontSize: "2em" }}
+            style={{
+              height: "40px",
+              fontSize: "2em",
+              backgroundColor: "#2980b6",
+            }}
           >
             <DiGithubBadge />
           </Button>
@@ -41,7 +45,11 @@ const Project = ({ project }) => {
           <Button
             variant="contained"
             sx={{ width: { lg: "75%", md: "75%", xs: "90%" } }}
-            style={{ height: "40px", fontSize: "1em" }}
+            style={{
+              height: "40px",
+              fontSize: "1em",
+              backgroundColor: "#2980b6",
+            }}
           >
             Demo
           </Button>

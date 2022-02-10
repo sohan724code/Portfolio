@@ -25,6 +25,7 @@ const Navbar = () => {
 
   return (
     <AppBar
+      id="home"
       position="static"
       style={{
         backgroundColor: dark ? "#222" : "#fff",

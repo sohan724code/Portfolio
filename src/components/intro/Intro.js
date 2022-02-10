@@ -98,6 +98,7 @@ const Intro = () => {
               >
                 <Button
                   variant="contained"
+                  style={{ backgroundColor: "#2980b6" }}
                   sx={{ width: { xs: "90%", lg: "75%", md: "75%" } }}
                 >
                   Follow me on Github

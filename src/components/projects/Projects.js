@@ -2,6 +2,7 @@ import React from "react";
 import Project from "../project/Project";
 import "./Projects.css";
 import projects from "../../data";
+import { CircularProgress } from "@mui/material";
 
 const Projects = () => {
   return (
@@ -17,11 +18,15 @@ const Projects = () => {
           knowledge.
         </p>
       </div>
-      <div className="ps-list">
-        {projects.map((project) => (
-          <Project key={project.id} project={project} />
-        ))}
-      </div>
+      {projects?.length ? (
+        <div className="ps-list">
+          {projects.map((project) => (
+            <Project key={project.id} project={project} />
+          ))}
+        </div>
+      ) : (
+        <CircularProgress />
+      )}
     </div>
   );
 };
