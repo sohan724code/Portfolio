@@ -6,8 +6,8 @@ import { CircularProgress } from "@mui/material";
 
 const Projects = () => {
   return (
-    <div className="ps" id="projects">
-      <div className="ps-texts">
+    <div className="ps">
+      <div className="ps-texts" id="projects">
         <h1 className="ps-title">
           {" "}
           My <strong style={{ color: "#2980b6" }}>Creations</strong> &{" "}

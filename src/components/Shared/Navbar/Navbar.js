@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -78,26 +79,50 @@ const Navbar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <a href="#about">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">About</Typography>
                 </MenuItem>
-              </a>
-              <a href="#skills">
+              </Link>
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Skills</Typography>
                 </MenuItem>
-              </a>
-              <a href="#projects">
+              </Link>
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Projects</Typography>
                 </MenuItem>
-              </a>
-              <a href="contact">
+              </Link>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Resume and Contact</Typography>
                 </MenuItem>
-              </a>
+              </Link>
             </Menu>
           </Box>
           <Typography
@@ -123,7 +148,13 @@ const Navbar = () => {
               mr: 8,
             }}
           >
-            <a href="#about">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <Button
                 onClick={handleCloseNavMenu}
                 sx={{
@@ -137,8 +168,14 @@ const Navbar = () => {
               >
                 About
               </Button>
-            </a>
-            <a href="#skills">
+            </Link>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <Button
                 onClick={handleCloseNavMenu}
                 sx={{
@@ -152,8 +189,14 @@ const Navbar = () => {
               >
                 Skills
               </Button>
-            </a>
-            <a href="#projects">
+            </Link>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <Button
                 onClick={handleCloseNavMenu}
                 sx={{
@@ -167,8 +210,14 @@ const Navbar = () => {
               >
                 Projects
               </Button>
-            </a>
-            <a href="#contact">
+            </Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <Button
                 onClick={handleCloseNavMenu}
                 sx={{
@@ -182,7 +231,7 @@ const Navbar = () => {
               >
                 Resume and Contact
               </Button>
-            </a>
+            </Link>
           </Box>
         </Toolbar>
       </Container>

@@ -9,6 +9,7 @@ import Projects from "../projects/Projects";
 import Skills from "../Skills/Skills";
 import Fade from "react-reveal/Fade";
 import JumpBtn from "../Shared/JumpBtn/JumpBtn";
+import Footer from "../Shared/Footer/Footer";
 
 const Home = () => {
   const { dark } = useDark();
@@ -20,9 +21,7 @@ const Home = () => {
       }}
     >
       <Toggle />
-
       <JumpBtn />
-
       <Fade bottom>
         <Intro />
       </Fade>
@@ -41,6 +40,7 @@ const Home = () => {
       <Fade left>
         <Contact />
       </Fade>
+      <Footer />
     </div>
   );
 };
